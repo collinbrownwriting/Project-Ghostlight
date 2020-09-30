@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3129810761847689852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129810761847689841}
+  - component: {fileID: 3129810761847689854}
+  - component: {fileID: 3129810761847689855}
+  - component: {fileID: 3129810761847689840}
+  - component: {fileID: 5147855905879186278}
+  - component: {fileID: 3129810761847689843}
+  - component: {fileID: 3129810761847689842}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Round Controller
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129810761847689841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3129810761847689854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b822a5164cb0e4eb43c0e998f45855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seed: 0
+  gameState: 0
+  devMode: 0
+  initialGeneration: 1
+  randomSeed: 0
+  maxYearGen: 100
+  inGameMap: 0
+  renderPixels: 0
+  walkType: 2
+  hexGridDimensions: 32
+  pixelGridDimensions: 400
+  sightThreshold: 0.25
+  tileSightThreshold: 0.175
+  menu: {fileID: 0}
+  pixelRenderButton: {fileID: 0}
+  walkStyleButton: {fileID: 0}
+  worldMapViewType: 1
+  reloadButton: {fileID: 0}
+  useWorldButton: {fileID: 0}
+  player: {fileID: 0}
+  hasSetUpPlayer: 0
+  factions: []
+  livingSchools: []
+--- !u!114 &3129810761847689855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3c2e84dcdbd7240acc619692e93ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actors: []
+  cycledActors: []
+  allAligned: 0
+  firstRound: 0
+  activeActor: {fileID: 0}
+  topInitiative: 0
+  inCombat: 0
+  player: {fileID: 0}
+  actionBar: {fileID: 0}
+  freeMoves: 0
+--- !u!114 &3129810761847689840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9ab5d3e4637d64ab8572c8fed7abdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factionArray:
+  - factionName: Neutral
+    factionID: 0
+    factionType: 2
+    schoolType: 0
+    baseStrength: 0
+    overallStrength: 0
+    genHostility: 0
+    startTileX: 0
+    startTileY: 0
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  - factionName: The House of Aphelion
+    factionID: 1
+    factionType: 0
+    schoolType: 0
+    baseStrength: 500
+    overallStrength: 0
+    genHostility: 50
+    startTileX: 1
+    startTileY: 1
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  - factionName: The Sultanate
+    factionID: 2
+    factionType: 0
+    schoolType: 0
+    baseStrength: 0
+    overallStrength: 250
+    genHostility: -100
+    startTileX: 1
+    startTileY: 7
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  - factionName: Lords of the Moores
+    factionID: 3
+    factionType: 0
+    schoolType: 0
+    baseStrength: 0
+    overallStrength: 0
+    genHostility: 0
+    startTileX: 5
+    startTileY: 9
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  - factionName: The Republic of Tyralem
+    factionID: 4
+    factionType: 0
+    schoolType: 0
+    baseStrength: 0
+    overallStrength: 0
+    genHostility: 0
+    startTileX: 10
+    startTileY: 11
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  - factionName: The Kingdom of Skhihon
+    factionID: 5
+    factionType: 0
+    schoolType: 0
+    baseStrength: 0
+    overallStrength: 0
+    genHostility: 0
+    startTileX: 10
+    startTileY: 5
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  - factionName: The High Princedom of Kyer
+    factionID: 6
+    factionType: 0
+    schoolType: 0
+    baseStrength: 0
+    overallStrength: 0
+    genHostility: 0
+    startTileX: 7
+    startTileY: 7
+    subservient: 0
+    primaryElementAssociation: 0
+    spellSystemEffect: 0
+    secondaryElementAssociation: 0
+    knownSpells: []
+    targetTiles: []
+    bestTarget:
+      node:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      worth: 0
+      closestNodeInDomain:
+        x: 0
+        y: 0
+        hCost: 0
+        gCost: 0
+        isWalkable: 1
+        hasOccupant: 0
+        movementPenalty: 0
+        worldObject: {fileID: 0}
+        nodeType: 0
+      pathToTarget: []
+    onOffensive: 0
+    willAct: 0
+    recentlyRessurected: 0
+    resurgenceCounter: 0
+    members: []
+    domain: []
+    relationships: []
+  livingSchools: []
+  deadSchools: []
+  remainingFactions: []
+  hasSetUp: 0
+--- !u!114 &5147855905879186278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3804bc5b3a5ab4a48b94d847ab12130b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3129810761847689843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fa508dfdd375941a0c2eea9c8941f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActive: 0
+  textHist: {fileID: 0}
+  textBox: {fileID: 0}
+  scrollView: {fileID: 0}
+  content: {fileID: 0}
+  announcements: []
+  fadeOutOffset: 30
+  fadeOutTime: 1
+  fadingOut: 0
+--- !u!114 &3129810761847689842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129810761847689852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2996d5815d4bf49bc823ef313fac47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textHist: {fileID: 0}
+  sideText: {fileID: 0}
+  writtenNote: {fileID: 0}
+  announcements: []

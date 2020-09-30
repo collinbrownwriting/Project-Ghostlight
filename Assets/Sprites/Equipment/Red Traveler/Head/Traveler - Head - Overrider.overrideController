@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Traveler - Head - Overrider
+  m_Controller: {fileID: 9100000, guid: 8e2c6c8a1845bf04699567aad8be480b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8e9e17845d5822740a0727ad50e117f2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 500a306267a5c5846adc9271e6c3b5bd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 53ebcba17185d8b4b991003b23c317b8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c6f7053f243d0bd4e85201f92b6d8d6b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ddb00e2c35b0d94e85f532a7c5356c2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 448f36ce2ffe4ab4eb6721f2572bae05, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d4bfa78f0d2189542a2484beabc012b3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ec190ce67a595eb47840d04ee2eb1f9a, type: 2}

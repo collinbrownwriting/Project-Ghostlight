@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base Soldier
+  m_Controller: {fileID: 9100000, guid: 35f593712f7af3940b12e8359f0e3995, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 50fdf33fec0b7164fafc4f3a84433929, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 50fdf33fec0b7164fafc4f3a84433929, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a6eed1ab733403749bc6db671eb89cd9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6eed1ab733403749bc6db671eb89cd9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a1656897253dc7a4580ce23b663462c3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a1656897253dc7a4580ce23b663462c3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 241f2829bbbd32544b4d0f9daa34979d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 241f2829bbbd32544b4d0f9daa34979d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f852a8f91e6bf264bb918db5b0ae39d9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f852a8f91e6bf264bb918db5b0ae39d9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4b9154953ceda1d49b6176ae7fb72ae1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4b9154953ceda1d49b6176ae7fb72ae1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1a6d1685f0156064ba1d896cafc5c833, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1a6d1685f0156064ba1d896cafc5c833, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b3650e63956efed4594c78342e661f52, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b3650e63956efed4594c78342e661f52, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5075a1611ec15364aa81e2cfa7ad41b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5075a1611ec15364aa81e2cfa7ad41b4, type: 2}

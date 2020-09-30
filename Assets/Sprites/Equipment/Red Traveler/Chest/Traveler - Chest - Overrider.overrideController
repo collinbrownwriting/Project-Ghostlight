@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Traveler - Chest - Overrider
+  m_Controller: {fileID: 9100000, guid: e2c91c0e4d1c081438abea0fd5b48bd0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b869275e16dfc6145a2f62bbcb8cc209, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 835e5a03fc7d48c4cb220eb0661c471a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 120529120cc8e834895a0cd9245e50f8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9555ffb7fd64a79448bb34c9bd432af1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1e13e2ede987e4c4eae1364d0352d82a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 27a6c9921880c194385659598417a37b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cf85c3b5a183bee42b528afada805113, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fd4543126072bd34cb046808fb1ff50f, type: 2}

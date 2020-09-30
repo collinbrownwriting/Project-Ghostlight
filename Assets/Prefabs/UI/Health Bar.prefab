@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8549943016735549780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8549943016735549779}
+  - component: {fileID: 8549943016735549776}
+  - component: {fileID: 8549943016735549777}
+  - component: {fileID: 8549943016735549778}
+  m_Layer: 5
+  m_Name: Health Bar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8549943016735549779
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8549943016735549780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -41, y: 185}
+  m_SizeDelta: {x: 800, y: 32}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8549943016735549776
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8549943016735549780}
+  m_CullTransparentMesh: 0
+--- !u!114 &8549943016735549777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8549943016735549780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f467b5ac35ecc564f8d5e6f7e34fb770, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8549943016735549778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8549943016735549780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e84b37a41269644b73a2156f4dbcef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hOne: {fileID: 21300000, guid: 1f399b2decb2c594e973fe6aa3eee69a, type: 3}
+  hTwo: {fileID: 21300000, guid: 35bcb926debe1464fb83f301c8e8c373, type: 3}
+  hThree: {fileID: 21300000, guid: 4e9228b93c7322c4b824d0ba606fac68, type: 3}
+  hFour: {fileID: 21300000, guid: f0419a23b6e61d848b95853baed81958, type: 3}
+  hFive: {fileID: 21300000, guid: caf13d6d8eed8f4498c13b75ad8c15c4, type: 3}
+  hSix: {fileID: 21300000, guid: 84e54d51ada2e6245bdac64cac83f75b, type: 3}
+  hSeven: {fileID: 21300000, guid: 736e70241e817e1498eb5f14f69a8253, type: 3}
+  hEight: {fileID: 21300000, guid: 97106e25b40579041a8805076b23f5c8, type: 3}
+  hNine: {fileID: 21300000, guid: 1b06e3043d1c76a41b5a85d7615ccd49, type: 3}
+  hTen: {fileID: 21300000, guid: f467b5ac35ecc564f8d5e6f7e34fb770, type: 3}
+  hEleven: {fileID: 21300000, guid: d83123d4cdc752845ad0638d69e2c6ec, type: 3}
+  hTwelve: {fileID: 21300000, guid: d1bbc071dee086b4aa09f8d97e7804df, type: 3}
+  hThirteen: {fileID: 21300000, guid: 7a453f56bf545df44a685d6e42a7f8d5, type: 3}
+  hFourteen: {fileID: 21300000, guid: 3e2f334af434e65459aebe2250e80444, type: 3}
+  hFifteen: {fileID: 21300000, guid: 0a9c86d1be6d26041aabeb66f20ba9bc, type: 3}
+  hSixteen: {fileID: 21300000, guid: 6255d40c5e462034f99e15e3080fbd6e, type: 3}
+  hSeventeen: {fileID: 21300000, guid: 4e11a295894af9c43bd9d7ac03485014, type: 3}
+  hEighteen: {fileID: 21300000, guid: d400e20b8d8e54148b2a71b842efe705, type: 3}
+  hNineteen: {fileID: 21300000, guid: 4c73db854b9702543a54b34a6ca1b38f, type: 3}
+  hTwenty: {fileID: 21300000, guid: 68a357689a62b49428fd54378223b095, type: 3}
+  hTwentyOne: {fileID: 21300000, guid: 4f9ce0140efa83e44a667f30ee14b6bd, type: 3}
+  hTwentyTwo: {fileID: 21300000, guid: 8604042dfccbd0b4f9f73682b069b8e4, type: 3}
+  hTwentyThree: {fileID: 21300000, guid: f73ea2522b8ae874dafc505bd7547951, type: 3}
+  hTwentyFour: {fileID: 21300000, guid: 8e5f629e28f69dc4c933b00ed37d87f3, type: 3}
+  hTwentyFive: {fileID: 21300000, guid: 692531bc923db2e4588728defc822cca, type: 3}
+  hTwentySix: {fileID: 21300000, guid: 41f2a26aa4a795e4d8b4471a8e6d1e20, type: 3}
+  hTwentySeven: {fileID: 21300000, guid: 00403b485c693194baf496df213caa04, type: 3}
+  hTwentyEight: {fileID: 21300000, guid: a38fcac104781844d865ba429b7457b4, type: 3}
+  hTwentyNine: {fileID: 21300000, guid: 278eec28666792a438e181ad06640ded, type: 3}
+  hThirty: {fileID: 21300000, guid: 236970ea0c7da8746adb03dd857c2790, type: 3}
+  player: {fileID: 0}

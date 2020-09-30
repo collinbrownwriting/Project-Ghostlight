@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Red Traveler - Arms - Overrider
+  m_Controller: {fileID: 9100000, guid: cfd61f5fc15833643ac526481a3004fb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3a6bcc7119856bf4abefccd2596d1802, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e28a15c12c47df0419d8246dbd8c58f9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 47184ece879b22a4c949406d46bd8876, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 10e279a9d6e7f224885de5a21abb00c3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ba80fd2157c1dcd469386270757e8711, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 70ff2f8b7a58b344b99371df52a7efed, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7a152aaeef2be514d8c3cc7b5232c369, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b17a6daa4403c96429d33d0977918972, type: 2}

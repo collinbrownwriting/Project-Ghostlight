@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: 62dfd7a6cea0b1d45bac515076b9a227
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5923540521993418325
+    second: Acolyte - Arms - Attack_0
+  - first:
+      213: 5664199163214246857
+    second: Acolyte - Arms - Attack_1
+  - first:
+      213: 301815121206154078
+    second: Acolyte - Arms - Attack_2
+  - first:
+      213: -4368612982945680420
+    second: Acolyte - Arms - Attack_3
+  - first:
+      213: 2391796409555255611
+    second: Acolyte - Arms - Attack_4
+  - first:
+      213: -874843746840150641
+    second: Acolyte - Arms - Attack_5
+  - first:
+      213: -2321639998656431143
+    second: Acolyte - Arms - Attack_6
+  - first:
+      213: -1328989081927804536
+    second: Acolyte - Arms - Attack_7
+  - first:
+      213: -964463961968175594
+    second: Acolyte - Arms - Attack_8
+  - first:
+      213: 3584164210511023493
+    second: Acolyte - Arms - Attack_9
+  - first:
+      213: -5532379603735993095
+    second: Acolyte - Arms - Attack_10
+  - first:
+      213: 1036579586790947302
+    second: Acolyte - Arms - Attack_11
+  - first:
+      213: -5778958206279021743
+    second: Acolyte - Arms - Attack_12
+  - first:
+      213: 2430850383180410971
+    second: Acolyte - Arms - Attack_13
+  - first:
+      213: 2375811148189732447
+    second: Acolyte - Arms - Attack_14
+  - first:
+      213: 8917133695493515816
+    second: Acolyte - Arms - Attack_15
+  - first:
+      213: 2368596095700226859
+    second: Acolyte - Arms - Attack_16
+  - first:
+      213: 7090358920050764787
+    second: Acolyte - Arms - Attack_17
+  - first:
+      213: 285310742443388149
+    second: Acolyte - Arms - Attack_18
+  - first:
+      213: 4434200927424875843
+    second: Acolyte - Arms - Attack_19
+  - first:
+      213: 7915375806235063467
+    second: Acolyte - Arms - Attack_20
+  - first:
+      213: 3344690116143923754
+    second: Acolyte - Arms - Attack_21
+  - first:
+      213: 2987619474173487788
+    second: Acolyte - Arms - Attack_22
+  - first:
+      213: -4412524443917517366
+    second: Acolyte - Arms - Attack_23
+  - first:
+      213: 9082914450548675895
+    second: Acolyte - Arms - Attack_24
+  - first:
+      213: 2232000848050104556
+    second: Acolyte - Arms - Attack_25
+  - first:
+      213: 1487386641742374913
+    second: Acolyte - Arms - Attack_26
+  - first:
+      213: 3127190459641370320
+    second: Acolyte - Arms - Attack_27
+  - first:
+      213: 4117295101183093324
+    second: Acolyte - Arms - Attack_28
+  - first:
+      213: -6903405000332253191
+    second: Acolyte - Arms - Attack_29
+  - first:
+      213: -7031723819913609227
+    second: Acolyte - Arms - Attack_30
+  - first:
+      213: 5180029371311486019
+    second: Acolyte - Arms - Attack_31
+  - first:
+      213: 6686657054706418892
+    second: Acolyte - Arms - Attack_32
+  - first:
+      213: 8047786788298243698
+    second: Acolyte - Arms - Attack_33
+  - first:
+      213: 845392565229021572
+    second: Acolyte - Arms - Attack_34
+  - first:
+      213: 4049550198836357556
+    second: Acolyte - Arms - Attack_35
+  - first:
+      213: -3889750028490557128
+    second: Acolyte - Arms - Attack_36
+  - first:
+      213: 2326575689863815198
+    second: Acolyte - Arms - Attack_37
+  - first:
+      213: 8322452129283746942
+    second: Acolyte - Arms - Attack_38
+  - first:
+      213: 303361382237302072
+    second: Acolyte - Arms - Attack_39
+  - first:
+      213: -7612281754058071522
+    second: Acolyte - Arms - Attack_40
+  - first:
+      213: 3689594145988893716
+    second: Acolyte - Arms - Attack_41
+  - first:
+      213: -1777465337522616910
+    second: Acolyte - Arms - Attack_42
+  - first:
+      213: -6059517027679788638
+    second: Acolyte - Arms - Attack_43
+  - first:
+      213: 2390872701784739775
+    second: Acolyte - Arms - Attack_44
+  - first:
+      213: -2764341769741837666
+    second: Acolyte - Arms - Attack_45
+  - first:
+      213: 800434747308044168
+    second: Acolyte - Arms - Attack_46
+  - first:
+      213: -9057954839305304044
+    second: Acolyte - Arms - Attack_47
+  - first:
+      213: 6223279965375655243
+    second: Acolyte - Arms - Attack_48
+  - first:
+      213: 6624155317648008878
+    second: Acolyte - Arms - Attack_49
+  - first:
+      213: -4990113288012933651
+    second: Acolyte - Arms - Attack_50
+  - first:
+      213: 4303650755192949802
+    second: Acolyte - Arms - Attack_51
+  - first:
+      213: 600637284019316984
+    second: Acolyte - Arms - Attack_52
+  - first:
+      213: -1299534416567007317
+    second: Acolyte - Arms - Attack_53
+  - first:
+      213: 8866941565316596168
+    second: Acolyte - Arms - Attack_54
+  - first:
+      213: 1394321023851839641
+    second: Acolyte - Arms - Attack_55
+  - first:
+      213: 7264036869517290794
+    second: Acolyte - Arms - Attack_56
+  - first:
+      213: -7967093490595826268
+    second: Acolyte - Arms - Attack_57
+  - first:
+      213: -3616041948143830289
+    second: Acolyte - Arms - Attack_58
+  - first:
+      213: 6917407818615550181
+    second: Acolyte - Arms - Attack_59
+  - first:
+      213: 6274003928846296406
+    second: Acolyte - Arms - Attack_60
+  - first:
+      213: 8858368418124613880
+    second: Acolyte - Arms - Attack_61
+  - first:
+      213: -4331664958286114224
+    second: Acolyte - Arms - Attack_62
+  - first:
+      213: -1407888177243594928
+    second: Acolyte - Arms - Attack_63
+  - first:
+      213: 949670187544476001
+    second: Acolyte - Arms - Attack_64
+  - first:
+      213: -9166917569692169837
+    second: Acolyte - Arms - Attack_65
+  - first:
+      213: -4376640081861003086
+    second: Acolyte - Arms - Attack_66
+  - first:
+      213: 3146420975050849770
+    second: Acolyte - Arms - Attack_67
+  - first:
+      213: -5976997126386345465
+    second: Acolyte - Arms - Attack_68
+  - first:
+      213: 6232171838299845293
+    second: Acolyte - Arms - Attack_0
+  - first:
+      213: 4386872896388850141
+    second: Acolyte - Arms - Attack_1
+  - first:
+      213: 1419011907164699595
+    second: Acolyte - Arms - Attack_2
+  - first:
+      213: -7900509576593074372
+    second: Acolyte - Arms - Attack_3
+  - first:
+      213: -9135885606274118331
+    second: Acolyte - Arms - Attack_4
+  - first:
+      213: 6931884290580645336
+    second: Acolyte - Arms - Attack_5
+  - first:
+      213: 7242249450970156724
+    second: Acolyte - Arms - Attack_6
+  - first:
+      213: 807172125654692213
+    second: Acolyte - Arms - Attack_7
+  - first:
+      213: 4785157030832118953
+    second: Acolyte - Arms - Attack_8
+  - first:
+      213: 2621216246983021264
+    second: Acolyte - Arms - Attack_9
+  - first:
+      213: -3833269460659621706
+    second: Acolyte - Arms - Attack_10
+  - first:
+      213: -153718724338754416
+    second: Acolyte - Arms - Attack_11
+  - first:
+      213: 1096086457787894368
+    second: Acolyte - Arms - Attack_12
+  - first:
+      213: 5916158942232344422
+    second: Acolyte - Arms - Attack_13
+  - first:
+      213: -1463948519404217057
+    second: Acolyte - Arms - Attack_14
+  - first:
+      213: -4116182359671988742
+    second: Acolyte - Arms - Attack_15
+  - first:
+      213: -1590349856025720825
+    second: Acolyte - Arms - Attack_16
+  - first:
+      213: 8904094446477038979
+    second: Acolyte - Arms - Attack_17
+  - first:
+      213: -5068659122168229748
+    second: Acolyte - Arms - Attack_18
+  - first:
+      213: 6544241719736995052
+    second: Acolyte - Arms - Attack_19
+  - first:
+      213: 3458815943045860110
+    second: Acolyte - Arms - Attack_20
+  - first:
+      213: -1219240132071365932
+    second: Acolyte - Arms - Attack_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da23e09744f1d7650800000000000000
+      internalID: 6232171838299845293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1eb0818ad41ec30800000000000000
+      internalID: 4386872896388850141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbf992bfc751b310800000000000000
+      internalID: 1419011907164699595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3719961660cb5290800000000000000
+      internalID: -7900509576593074372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d4d61f170d63180800000000000000
+      internalID: -9135885606274118331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d58b2c1900033060800000000000000
+      internalID: 6931884290580645336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be08db2183a18460800000000000000
+      internalID: 7242249450970156724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571be3e85c6a33b00800000000000000
+      internalID: 807172125654692213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac163977fa486240800000000000000
+      internalID: 4785157030832118953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2d7e0f94e606420800000000000000
+      internalID: 2621216246983021264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0b70d2cbd7dcac0800000000000000
+      internalID: -3833269460659621706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c567872a1edddf0800000000000000
+      internalID: -153718724338754416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a409773d4163f00800000000000000
+      internalID: 1096086457787894368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667728a763b6a1250800000000000000
+      internalID: 5916158942232344422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dd373f3920fabe0800000000000000
+      internalID: -1463948519404217057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd950dc3f160e6c0800000000000000
+      internalID: -4116182359671988742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7084ef26b31fde9e0800000000000000
+      internalID: -1590349856025720825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385dac029b2b19b70800000000000000
+      internalID: 8904094446477038979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c809e9f126188a9b0800000000000000
+      internalID: -5068659122168229748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec0735db21d1da50800000000000000
+      internalID: 6544241719736995052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bc4bc46ce200030800000000000000
+      internalID: 3458815943045860110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acolyte - Arms - Attack_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d26cf74f83641fe0800000000000000
+      internalID: -1219240132071365932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
